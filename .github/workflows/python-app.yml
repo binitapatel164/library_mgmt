@@ -1,4 +1,4 @@
-name: Library Management application
+name: Inventory Management application
 
 on:
   push:

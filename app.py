@@ -2,7 +2,7 @@ from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
-# Sample book names
+# Extended sample book names
 books = [
     "To Kill a Mockingbird",
     "Pride and Prejudice",
@@ -14,6 +14,47 @@ books = [
     "The Grapes of Wrath",
     "To the Lighthouse",
     "Moby-Dick",
+    "War and Peace",
+    "The Odyssey",
+    "Crime and Punishment",
+    "Brave New World",
+    "The Lord of the Rings",
+    "The Divine Comedy",
+    "One Hundred Years of Solitude",
+    "The Brothers Karamazov",
+    "Ulysses",
+    "Don Quixote",
+    "Anna Karenina",
+    "The Count of Monte Cristo",
+    "The Iliad",
+    "Wuthering Heights",
+    "Jane Eyre",
+    "A Tale of Two Cities",
+    "The Picture of Dorian Gray",
+    "Dracula",
+    "Alice's Adventures in Wonderland",
+    "Frankenstein",
+    "The Scarlet Letter",
+    "The Adventures of Sherlock Holmes",
+    "Pride and Prejudice and Zombies",
+    "Gone with the Wind",
+    "Catch-22",
+    "The Hitchhiker's Guide to the Galaxy",
+    "Slaughterhouse-Five",
+    "The Sun Also Rises",
+    "The Bell Jar",
+    "The Handmaid's Tale",
+    "The Road",
+    "The Shining",
+    "Lord of the Flies",
+    "The Chronicles of Narnia",
+    "The Wind in the Willows",
+    "Moby-Dick",
+    "The Metamorphosis",
+    "The Stranger",
+    "Lolita",
+    "On the Road",
+    "The Old Man and the Sea",
 ]
 
 @app.route('/')
